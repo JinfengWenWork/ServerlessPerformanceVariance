@@ -1,0 +1,115 @@
+CSRankings category,Conference,Year,Paper title,Category 1: Mean or median values,"Category 2: Confidence (e.g., confidence intervals) or variability (e.g., standard deviation, coefficient of variance, or percentiles)",Category 3: The number of times that an experiment was repeated
+Machine Learning,NeurIPS,2022,A Mean-Field Game Approach to Cloud Resource Management with Function Approximation,,99th-percentile,
+The Web & information retrieval ,WWW,2022,Accelerating serverless computing by harvesting idle resources,,99th-percentile,
+,WWW,2021,CoResident Evil: covert communication in the cloud with Lambdas,,,
+,WWW,2020,Valve: Securing Function Workflows on Serverless Computing Platforms,average,,50
+Computer architecture,ASPLOS,2023,DataFlower: Exploiting the Data-flow Paradigm for Serverless Workflow Orchestration,average,99th-percentile,
+,ASPLOS,2023,𝜆FS: A Scalable and Elastic Distributed File System Metadata Service using Serverless Functions,average,,
+,ASPLOS,2023,Aquatope: Qos-and-Uncertainty-Aware Resource Management for Multi-Stage Serverless Workflows,average,95% confidence interval,30（account for system noise）
+,ASPLOS,2023,BeeHive: Sub-Second Elasticity for Web Services with Semi-FaaS Execution,average,"90th-percentile
+99th-percentile",
+,ASPLOS,2023,Flame: A Centralized Cache Controller for Serverless Computing,average,99th-percentile,
+,ASPLOS,2022,Serverless computing on heterogeneous computers,,,
+,ASPLOS,2022,IceBreaker: warming serverless functions better with heterogeneity,,,
+,ASPLOS,2022,"INFless: a native serverless system for low-latency, high-throughput inference",,,
+,ASPLOS,2022,FaaSFlow: enable efficient workflow execution for function-as-a-service,average,99th-percentile,1000（To avoid randomness）
+,ASPLOS,2021,FaasCache: keeping serverless computing alive with greedy-dual caching,,,
+,ASPLOS,2021,"Nightcore: efficient and scalable serverless computing for latency-sensitive, interactive microservices",median,99th-percentile,
+,ASPLOS,2021,"Benchmarking, Analysis, and Optimization of Serverless Function Snapshots",average,,20
+,ASPLOS,2020,Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting,,,
+,ISCA,2023,MXFaaS: Resource Sharing in Serverless Environments for Parallelism and Efficiency,average,99th-percentile,
+,ISCA,2022,HiveMind: a hardware-software system stack for serverless edge swarms,average/median,99th-percentile,10/50
+,ISCA,2022,Lukewarm serverless functions: characterization and optimization,average,,20
+,ISCA,2021,Confidential Serverless Made Efficient with Plug-In Enclaves,average,,"1000（To best eliminate measurement
+errors）"
+,MICRO,2023,Memento: Architectural Support for Ephemeral Memory Management in Serverless Environments,average,,10
+,MICRO,2023,"Accelerating Extra Dimensional Page Walks for Confidential
+Computing",average,,
+,MICRO,2023,Warming Up a Cold Front-End with Ignite,average,,
+,MICRO,2019,Architectural Implications of Function-as-a-Service Computing,,,
+,HPCA,2023,SpecFaas: Accelerating Serverless Applications with Speculative Function Execution,average,99th-percentile,
+Computer networks,SIGCOMM,2023,Ditto: Efficient Serverless Analytics with Elastic Parallelism,average,,
+,SIGCOMM,2022,"SPRIGHT: extracting the server from serverless computing! high-performance eBPF-based event-driven, shared-memory processing",,,
+,NSDI,2023,Doing More with Less: Orchestrating Serverless Applications without an Orchestrator,,"50th-percentile
+90th-percentile",
+,NSDI,2023,"Following the Data, Not the Function:
+Rethinking Function Orchestration in Serverless Computing",average,,10
+,NSDI,2021,Caerus: NIMBLE Task Scheduling for Serverless Analytics,,,
+,NSDI,2019,"Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure",average,,
+,NSDI,2017,"Encoding, fast and slow: Low-latency video processing using thousands of tiny threads",,,
+Computer security,CCS,2022,Gringotts: Fast and Accurate Internal Denial-of-Wallet Detection for Serverless Computing,average,,
+,USENIX Security,2023,Reusable Enclaves for Confidential Serverless Computing,average,,
+,USENIX Security,2023,Guarding Serverless Applications with Kalium,average,,100
+,USENIX Security,2022,ALASTOR: Reconstructing the Provenance of Serverless Intrusions,average,,500
+Databases,SIGMOD,2022,Serverless Data Science - Are We There Yet? A Case Study of Model Serving,average,,
+,SIGMOD,2021,Towards Demystifying Serverless Machine Learning Training,,,
+,SIGMOD,2020,Lambada: Interactive Data Analytics on Cold Data Using Serverless Cloud Infrastructure,median,,3（we observed little variation across data centers in the experiments）
+,SIGMOD,2020,Transactional Causal Consistency for Serverless Computing,median,99th-percentile,
+,SIGMOD,2020,Starling: A Scalable Query Engine on Cloud Functions,median,,3
+,VLDB,2022,Optimizing Inference Serving on Serverless Platforms,,,
+,VLDB,2022,Netherite: Efficient Execution of Serverless Workflows,,,
+,VLDB,2020,Cloudburst: Stateful Functions-as-a-Service,median,99th-percentile,1000
+High-performance computing,HPDC,2023,Ilúvatar: A Fast Control Plane for Serverless Computing,average,"50-th percentile
+99-th percentile",
+,HPDC,2023,ProPack: Executing Concurrent Serverless Functions Faster and Cheaper,average/median,95th-percentile,
+,HPDC,2020,funcX: A Federated Function Serving Fabric for Science,average,,50
+,HPDC,2023,Libra: Harvesting Idle Resources Safely and Timely in Serverless Clusters,average,99th-percentile,5
+,HPDC,2023,FlexLog: A Shared Log for Stateful Serverless Computing,average,,
+,HPDC,2022,Locality-aware Load-Balancing For Serverless Clusters,average,,4
+,HPDC,2021,LaSS: Running Latency Sensitive Serverless Computations at the Edge,,95th-percentile,
+,ICS,2023,FMI: Fast and Cheap Message Passing for Serverless Functions,,,1000
+,SC,2023,Rethinking Deployment for Serverless Functions: A Performance-First Perspective,average,,10
+,SC,2022,SFS: Smart OS Scheduling for Serverless Functions,average,"90-th percentile
+99-th percentile
+99.99-th percentile",
+,SC,2022,DayDream: Executing Dynamic Scientific Workflows on Serverless Platforms with Hot Starts,average,,50
+,SC,2022,Canary: Fault-Tolerant FaaS for Stateful Time-Sensitive Applications,average,,10
+,SC,2022,Using Unused: Non-Invasive Dynamic FaaS Infrastructure with HPC-Whisk,,,
+,SC,2021,"Understanding, predicting and scheduling serverless workloads under partial interference",,90th-percentile/95th-percentile/99th-percentile,
+,SC,2020,Batch: Machine learning inference serving on serverless platforms with adaptive batching,,95th-percentile,
+Operating systems,OSDI,2023,No Provisioned Concurrency: Fast RDMA-codesigned Remote Fork for Serverless Computing,average,99th-percentile,
+,OSDI,2023,Automated Verification of Idempotence for Stateful Serverless Applications,median,99th-percentile,
+,OSDI,2022,"Orion and the Three Rights: Sizing, Bundling, and Prewarming for Serverless DAGs",,95th-percentile,300
+,OSDI,2021,"Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads",,,
+,OSDI,2020,Fault-tolerant and transactional stateful serverless workflows,median,99th-percentile,
+,OSDI,2018,Pocket: Elastic Ephemeral Storage for Serverless Analytics,,,
+,SOSP,2023,XFaaS: Hyperscale and Low Cost Serverless Functions at Meta,average,"10th-percentile
+90th-percentile
+95th-percentile
+99th-percentile",
+,SOSP,2023,Halfmoon: Log-optimal fault-tolerant stateful serverless computing,median,99th-percentile,
+,SOSP,2021,Boki: Stateful Serverless Computing with Shared Logs,,,
+,SOSP,2021,Faster and Cheaper Serverless Computing on Harvested Resources,,,
+,EuroSys,2023,With Great Freedom Comes Great Opportunity: Rethinking Resource Allocation for Serverless Functions,average,95th-percentile,10
+,EuroSys,2023,Palette Load Balancing: Locality Hints for Serverless Functions,average,,20
+,EuroSys,2023,Groundhog: Efficient Request Isolation in FaaS,median,"95th-percentile
+standard deviation",4月6日
+,EuroSys,2022,FaaSnap: FaaS made fast using snapshot-based VMs,average,standard deviation,5
+,EuroSys,2022,Memory deduplication for serverless computing with Medes,,99.9th-percentile,
+,EuroSys,2022,"Fireworks: a fast, efficient, and safe serverless framework using VM-level post-JIT snapshot",,,
+,EuroSys,2021,OFC: An opportunistic caching system for FaaS platforms,average,,5
+,EuroSys,2020,A fault-tolerance shim for serverless computing,median,99th-percentile,1000
+,EuroSys,2020,Seuss: Skip redundant paths to make serverless fast,average,,475
+,EuroSys,2019,Replayable Execution Optimized for Page Sharing for a Managed Runtime Environment,average,,10
+,FAST,2024,"MinFlow: High-performance and Cost-efficient Data Passing for I/O-intensive
+Stateful Serverless Analytics",,,
+,FAST,2020,InfiniCache: Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache,,,
+,USENIX ATC,2023,UnFaaSener: Latency and Cost Aware Offloading of Functions from Serverless Platforms,average,,
+,USENIX ATC,2023,On-demand Container Loading in AWS Lambda,median,99th-percentile,
+,USENIX ATC,2023,Decentralized and Stateful Serverless Computing on the Internet Computer Blockchain,average,,30
+,USENIX ATC,2022,Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing,average,,20（avoid randomness）
+,USENIX ATC,2022,Tetris: Memory-efficient Serverless Inference through Tensor Sharing,,,
+,USENIX ATC,2021,FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute,,,
+,USENIX ATC,2021,Faastlane: Accelerating function-as-a-service workflows,median,99th-percentile,100
+,USENIX ATC,2020,Serverless in the wild: Characterizing and optimizing the serverless workload at a large cloud provider,,75th-percentile,
+,USENIX ATC,2020,Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing,,,
+,USENIX ATC,2018,SOCK: Rapid task provisioning with serverless-optimized containers,average,,50
+,USENIX ATC,2018,SAND: Towards high-performance serverless computing,mean,95% confidence interval,10
+,USENIX ATC,2018,Putting the “Micro” Back in Microservice,,,
+,USENIX ATC,2018,Understanding Ephemeral Storage for Serverless Analytics,,,
+,USENIX ATC,2018,Peeking Behind the Curtains of Serverless Platforms,average/median,,10/50/100/1000
+Programming languages,POPL,2022,"Executing Microservice Applications on Serverless, Correctly",median,90th-percentile,
+,OOPSLA,2019,Formal foundations of serverless computing,,,5
+,OOPSLA,2018,Secure serverless computing using dynamic information flow control,average,,10
+,,,,62,37,38
+,,,,62.62626263,37.37373737,38.38383838
